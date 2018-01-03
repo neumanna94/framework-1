@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+}
+/*---Check video for information: https://www.youtube.com/watch?v=8x1mO1d6-4w reference -->*/
+.navigation_bar h1 {
+  text-align: center;
+}
+.navigation_bar ul {
+  margin: 0px;
+  padding: 0px;
+  list-style:none;
+}
+
+.navigation_bar ul li {
+  float:left;
+  width: 230px;
+  height: 40px;
+  background: black;
+  opacity: .8;
+  line-height:40px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.navigation_bar ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+.navigation_bar ul li a:hover {
+  color:red;
+}
+
+.navigation_bar ul li {
+  display:block;
+}
